@@ -12,11 +12,16 @@ from utils.general_utils import build_rotation
 import random 
 
 def sampling_cameras(my_viewpoint_stack, mode="fps", num_cams=60, weights=None):
+    pass
 
 def get_loss(reconstructed_image, original_image):
+    pass 
 
 def compute_photometric_loss(viewpoint_cam, image):
+    pass 
 
 def compute_projected_axes_subset(means2D, depths, scales, rotations, viewpoint_camera):
+    pass 
 
 def update_freq_stats_online(viewpoint_cam, gaussians, cov2D, visibility_filter, structure_tensor_cache, viewspace_point_tensor=None, grad_threshold=None, transmittance_threshold=0.0, opacity_threshold=0.05, eta_compute_mode="wavelength"):
+    pass
